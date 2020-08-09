@@ -1,0 +1,66 @@
+.background {
+  animation: navbar;
+  animation-duration: 3s;
+  animation-fill-mode: forwards;
+  font-size: 2vw;
+  padding: 10px;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+}
+a {
+  color: white;
+}
+a:active {
+  font-weight: bold;
+}
+a:hover {
+  color: white;
+}
+button.btn {
+  color: white;
+  font-weight: bold;
+}
+
+@media only screen and (max-width: 1920px) {
+  li > a {
+    font-size: 1.5vw;
+  }
+  embed {
+    width: max-content;
+  }
+  .hidden-button {
+    display: none;
+  }
+}
+@media only screen and (max-width: 1280px) {
+  li > a {
+    font-size: 3vw;
+  }
+  embed {
+    width: max-content;
+  }
+  .hidden-button {
+    display: none;
+  }
+}
+@media only screen and (max-width: 600px) {
+  li > a {
+    font-size: 5vw;
+  }
+  .hidden {
+    display: none;
+  }
+  .hidden-button {
+    display: block;
+  }
+}
+
+@keyframes navbar {
+  0% {
+    background-color: white;
+  }
+  100% {
+    background-color: red;
+  }
+}
