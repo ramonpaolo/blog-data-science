@@ -58,6 +58,8 @@ The website uses real data released by government, non-profit institutions and t
         command: " git clone https://github.com/ramonpaolo/blog-data_science "
         and run the command: " npm start " in directory of project.
 
+<img src="https://ik.imagekit.io/9t3dbkxrtl/start_DU8xADtye.png" height="70px">
+
 #### I hope see you helping me in this project :)
 
 #### any problem, tell me: Ramonpaolomaran12@gmail.com
