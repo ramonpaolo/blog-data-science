@@ -1,28 +1,25 @@
 {
   "files": {
-    "main.css": "/blog-data-science/static/css/main.2b241859.chunk.css",
-    "main.js": "/blog-data-science/static/js/main.ebe3a520.chunk.js",
-    "main.js.map": "/blog-data-science/static/js/main.ebe3a520.chunk.js.map",
+    "main.css": "/blog-data-science/static/css/main.9bd1391d.chunk.css",
+    "main.js": "/blog-data-science/static/js/main.e7a8b4b9.chunk.js",
+    "main.js.map": "/blog-data-science/static/js/main.e7a8b4b9.chunk.js.map",
     "runtime-main.js": "/blog-data-science/static/js/runtime-main.ea969b38.js",
     "runtime-main.js.map": "/blog-data-science/static/js/runtime-main.ea969b38.js.map",
-    "static/js/2.ba905f95.chunk.js": "/blog-data-science/static/js/2.ba905f95.chunk.js",
-    "static/js/2.ba905f95.chunk.js.map": "/blog-data-science/static/js/2.ba905f95.chunk.js.map",
+    "static/js/2.c6e06d7e.chunk.js": "/blog-data-science/static/js/2.c6e06d7e.chunk.js",
+    "static/js/2.c6e06d7e.chunk.js.map": "/blog-data-science/static/js/2.c6e06d7e.chunk.js.map",
     "index.html": "/blog-data-science/index.html",
-    "precache-manifest.29425f4bc618a968e7bc902913a8f199.js": "/blog-data-science/precache-manifest.29425f4bc618a968e7bc902913a8f199.js",
+    "precache-manifest.f15eb61263407ca5faaf6ac89ffc9b9c.js": "/blog-data-science/precache-manifest.f15eb61263407ca5faaf6ac89ffc9b9c.js",
     "service-worker.js": "/blog-data-science/service-worker.js",
-    "static/css/main.2b241859.chunk.css.map": "/blog-data-science/static/css/main.2b241859.chunk.css.map",
-    "static/js/2.ba905f95.chunk.js.LICENSE.txt": "/blog-data-science/static/js/2.ba905f95.chunk.js.LICENSE.txt",
-    "static/media/comparação_covid_brasil.svg": "/blog-data-science/static/media/comparação_covid_brasil.7e03372a.svg",
-    "static/media/covid_itapeva.png": "/blog-data-science/static/media/covid_itapeva.4685b5e3.png",
+    "static/css/main.9bd1391d.chunk.css.map": "/blog-data-science/static/css/main.9bd1391d.chunk.css.map",
+    "static/js/2.c6e06d7e.chunk.js.LICENSE.txt": "/blog-data-science/static/js/2.c6e06d7e.chunk.js.LICENSE.txt",
+    "static/media/arrow.svg": "/blog-data-science/static/media/arrow.84e5e9b6.svg",
     "static/media/data_Science.jpg": "/blog-data-science/static/media/data_Science.12483f96.jpg",
-    "static/media/infectados_itapeva.svg": "/blog-data-science/static/media/infectados_itapeva.92c66f25.svg",
-    "static/media/logo.svg": "/blog-data-science/static/media/logo.5d5d9eef.svg",
     "static/media/r.png": "/blog-data-science/static/media/r.0b259cd7.png"
   },
   "entrypoints": [
     "static/js/runtime-main.ea969b38.js",
-    "static/js/2.ba905f95.chunk.js",
-    "static/css/main.2b241859.chunk.css",
-    "static/js/main.ebe3a520.chunk.js"
+    "static/js/2.c6e06d7e.chunk.js",
+    "static/css/main.9bd1391d.chunk.css",
+    "static/js/main.e7a8b4b9.chunk.js"
   ]
 }
