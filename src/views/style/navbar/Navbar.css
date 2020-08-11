@@ -8,23 +8,43 @@
   width: 100%;
   z-index: 1;
 }
-a {
-  color: white;
+
+.background button {
+  animation: navbar;
+  animation-duration: 3s;
+  animation-fill-mode: forwards;
+  border: red;
+  font-size: 18px;
+  outline: red;
 }
-a:active {
+
+.background li {
+  color: white;
+  padding-right: 15px;
+  text-decoration: none;
+}
+
+.background li:active {
   font-weight: bold;
 }
-a:hover {
+
+.background li:hover {
   color: white;
 }
+
 button.btn {
   color: white;
   font-weight: bold;
 }
 
 @media only screen and (max-width: 1920px) {
-  li > a {
+  li:first-of-type {
+    margin-left: 10vw;
+  }
+  li {
     font-size: 1.5vw;
+    margin-right: 25px;
+    text-decoration: none;
   }
   embed {
     width: max-content;
@@ -34,7 +54,7 @@ button.btn {
   }
 }
 @media only screen and (max-width: 1280px) {
-  li > a {
+  li {
     font-size: 3vw;
   }
   embed {
@@ -45,11 +65,19 @@ button.btn {
   }
 }
 @media only screen and (max-width: 600px) {
-  li > a {
+  li:first-of-type {
+    margin-left: 2vw;
+  }
+  li {
     font-size: 5vw;
+    margin-right: 0px;
+    text-decoration: none;
   }
   .hidden {
     display: none;
+  }
+  .justify-between {
+    justify-content: space-between;
   }
   .hidden-button {
     display: block;

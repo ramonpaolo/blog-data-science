@@ -1,40 +1,42 @@
 import React from "react";
+
+import "./Home.css";
+
 import logo from "../../assets/images/data_Science.jpg";
-import "../../views/css/bootstrap.min.css";
 import python from "../../assets/images/Python.png";
 import r from "../../assets/images/r.png";
 
 class MyHomePage extends React.Component {
   render() {
     return (
-      <div className="container">
-        <h1 style={{ paddingTop: "1.7em" }}>Bem Vindo</h1>
-        <hr color="red"></hr>
-        <div class="card">
+      <div className="home">
+        <h1>Bem Vindo</h1>
+        <hr color="red" />
+        <div>
           <img
-            className="card-img-top"
+            className="img-fluid"
             src={logo}
             alt="Logo com linguagens de programação"
           />
-          <div classname="card-body">
-            <h2 className="card-title">Data Science</h2>
-            <h6 className="card-subtitle">
+          <div>
+            <h2>Data Science</h2>
+            <h6>
               <i>Ciência de Dados</i>
             </h6>
-            <p className="card-text" style={{ paddingTop: "10px" }}>
+            <p style={{ paddingTop: "10px" }}>
               Esse é um Blog sobre Data Science para qualquer pessoa. Aqui nós
               ensinaremos e aprenderemos juntos, com dados reais.
             </p>
             <div className="row-cols-2">
               <img
                 src={python}
-                className="card-img"
+                className="img-fluid"
                 style={{ width: "100px" }}
                 alt="Python"
               />
               <img
                 src={r}
-                className="card-img"
+                className="img-fluid"
                 style={{ width: "100px" }}
                 alt="R"
               />
@@ -43,10 +45,10 @@ class MyHomePage extends React.Component {
         </div>
         <div>
           <hr color="red" />
-          <div className="card">
-            <div className="card-body">
-              <h3 className="card-title">Porque Python?</h3>
-              <p className="card-text">
+          <div>
+            <div>
+              <h3>Porque Python?</h3>
+              <p>
                 Bom, o uso de Python para Data Science se justifica pois Python
                 é muito rico em bibliotecas para Data Science.
               </p>
@@ -80,14 +82,37 @@ class MyHomePage extends React.Component {
               </div>
             </div>
           </div>
-          <div className="card">
-                <div className="card-body">
-                <h2 className="card-title">O que aprenderemos?</h2>
-                <p>
-                        Nós começaremos com o básico mesmo, iniciando com Python e logo partiremos
-                        para Data Science, pegando dados públicos e do Banco de Dados
-                </p>
-                </div>
+          <hr color="red" />
+          <div>
+            <div>
+              <h2>O que aprenderemos?</h2>
+              <p>
+                Nós começaremos com o básico mesmo, iniciando com Python e logo
+                partiremos para Data Science, pegando dados públicos e do Banco
+                de Dados nosso mesmo, do nosso próprio site. Utilizaremos a
+                bibliotecas: <i>Pandas</i>,<i>csv</i>, <i>request</i>,
+                <i>matplotlib</i>, <i>Pygal</i>, <i>JSON</i>,<i>Scikit-learn</i>
+                , <i>Tensorflow</i>.
+              </p>
+              <p>
+                Também aprenderemos a mexer com o <i>Jupyter</i>, mas
+                especificamente com o <i>Jupyter-Notebook</i> para trabalharmos
+                com Python e Data Science de uma forma mais fácil e rápido.
+              </p>
+
+              <p>
+                Ensinaremos tanto a baixar, instalar e configurar a IDE para o
+                desenvolvimento dos exercícios propostos. Qualquer dúvida ou
+                sugestão será muito bem vinda em nosso{" "}
+                <a
+                  href="https://github.com/ramonpaolo/blog-data-science"
+                  className="link"
+                >
+                  Github
+                </a>
+                .
+              </p>
+            </div>
           </div>
         </div>
       </div>

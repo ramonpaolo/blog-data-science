@@ -1,0 +1,14 @@
+.data {
+  margin: 3vw 20vw 3vw 20vw;
+}
+.data a {
+  color: black;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+@media only screen and (max-width: 550px) {
+  .data {
+    margin: 3vw 10vw 3vw 10vw;
+  }
+}

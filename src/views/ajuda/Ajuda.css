@@ -1,0 +1,19 @@
+.perguntas-respostas ul{
+        list-style: none;
+        margin: 20px;
+        justify-content: center;
+}
+.perguntas-respostas ul li{
+        list-style: none;
+        margin: 20px;
+        justify-content: center;
+        margin-left: -20px;
+}
+.perguntas-respostas a{
+        color: black;
+        font-weight: bold;
+}
+.perguntas-respostas a:hover{
+        font-size: 18px;
+        color: black
+}

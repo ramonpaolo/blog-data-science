@@ -1,27 +1,34 @@
-import React from 'react';
-import './App.css';
-import NavBar from './views/navbar/Navbar';
-import Content from './views/content/Content';
-import Footer from './views/footer/Footer';
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom"
-import MyHomePage from './views/home/Home';
-import Ajuda from "./views/ajuda/Ajuda"
+import React from "react";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+
+import "./App.css";
+
+import Navbar from "./views/style/navbar/Navbar";
+import Content from "./views/content/Content";
+import Footer from "./views/style/footer/Footer";
+import Home from "./views/home/Home";
+import Data from "./views/dados/Dados";
+import Help from "./views/ajuda/Ajuda";
 
 function App() {
   return (
-    <Router>
-      <div className="App">
-        <NavBar arrow=">" link1="Home" link2="Conteudo" link3="Dados" link4="Código" link5="Ajuda" />
+    <div className="App">
+      <Router>
+        <Navbar link1="Home" link2="Conteudo" link3="Dados" link4="Ajuda" />
+
+        <br />
+        <br />
+        <br />
+
         <Switch>
-          <Route path="/" exact component={MyHomePage} />
+          <Route path="/" exact component={Home} />
           <Route path="/content" component={Content} />
-          <Route path="/ajuda" component={Ajuda} />
+          <Route path="/data" component={Data} />
+          <Route path="/help" component={Help} />
         </Switch>
-        <Footer></Footer>
-      </div>
-
-    </Router>
-
+      </Router>
+      <Footer autor="Ramon Paolo Maran"/>
+    </div>
   );
 }
 
