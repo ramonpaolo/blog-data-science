@@ -6,18 +6,18 @@ import { Link } from "react-router-dom";
 class NavBar extends React.Component {
   state = {
     mostrar: 0,
-    class: "hidden"
+    class: "hidden",
   };
   menu = () => {
     if (this.state.mostrar === 0) {
       this.setState({
         mostrar: 1,
-        class: ""
+        class: "show",
       });
     } else {
       this.setState({
         mostrar: 0,
-        class: "hidden"
+        class: "hidden",
       });
     }
   };
@@ -26,37 +26,32 @@ class NavBar extends React.Component {
       <div>
         <nav className="navbar-expand background ">
           <div className={this.state.class}>
-          <ul className="navbar-expand navbar-nav justify-between">
-               <Link to="/">
-                <li>
-                  {this.props.link1}
-                </li>
+            <ul className="navbar-expand navbar-nav justify-between">
+              <Link to="/">
+                <li>{this.props.link1}</li>
               </Link>
               <Link to="/content">
-                <li>
-                  {this.props.link2}
-                </li>
+                <li>{this.props.link2}</li>
               </Link>
               <Link to="/data">
-                <li>
-                  {this.props.link3}
-                </li>
+                <li>{this.props.link3}</li>
               </Link>
               <Link to="/help">
-                <li>
-                  {this.props.link4}
-                </li>
+                <li>{this.props.link4}</li>
               </Link>
             </ul>
-          </div> 
+          </div>
           <button
             onClick={this.menu}
             className="hidden-button"
             style={{ color: "white" }}
           >
-            Menu
+            <img
+              height="35px"
+              src="https://lh3.googleusercontent.com/proxy/W2NsLaIz64QdXHNqgw3SzFotnGVMo-fXcvSsKlglscfhu3jRIKKIj1h4j-aAUP-thFDznDGbhkD4qoQRFhOwkYrj-Jbl"
+              alt=" "
+            />
           </button>
-          
         </nav>
       </div>
     );
@@ -65,7 +60,8 @@ class NavBar extends React.Component {
 
 export default NavBar;
 
-{/*{this.state.mostrar === 1 ? <ul className="navbar-expand navbar-nav text-center">
+{
+  /*{this.state.mostrar === 1 ? <ul className="navbar-expand navbar-nav text-center">
                <Link to="/">
                 <li className="nav-item">
                   <a className="nav-link active">{this.props.link1}</a>
@@ -91,4 +87,5 @@ export default NavBar;
                   <a className="nav-link">{this.props.link5}</a>
                 </li>
               </Link>
-            </ul> : false} */ }
+            </ul> : false} */
+}

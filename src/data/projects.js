@@ -14,7 +14,7 @@ export default [
 
                 img_description1: "Gráfico da biblioteca Pygal com as 4 maiores cidades brasileiras.",
                 img_description2: "",
-        },/*
+        },
         {
                 id: 1,
                 name: "José Victor",
@@ -29,8 +29,7 @@ export default [
                 type_img2: "",
                 img_description1: "Outra descrição?",
                 img_description2: "",
-        },
-        {
+        },{
                 id: 2,
                 name: "Nicolas Matheus",
                 project_name: "Cancêr no Brasil",
@@ -59,7 +58,7 @@ export default [
                 type_img2: "png",
                 img_description1: "Decrição básica",
                 img_description2: "Nada ksks",
-        },*/
+        },
 
         //{id: 0, name: "", project_name: "", lenguages: ""},
 

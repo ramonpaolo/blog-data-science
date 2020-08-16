@@ -10,19 +10,20 @@ export default (props) => {
 
       <div>
         <p>{props.describe}</p>
+        <hr color="red" />
         <figure>
           {props.type_img1 === "svg" ? (
             <embed
               type="image/svg+xml"
-              className="img-thumbnail"
+              className="img-fluid img-border"
               src={props.img1}
             />
           ) : props.type_img1 === "png" ? (
-            <img className="img-thumbnail" src={props.img1} />
+            <img className="img-fluid img-border" src={props.img1} alt=" " />
           ) : (
             false
           )}
-          {props.img_description1 != "" ? (
+          {props.img_description1 !== "" ? (
             <figcaption className="figure-caption">
               <span>{props.img_description1}</span>
             </figcaption>
@@ -34,19 +35,23 @@ export default (props) => {
 
       <p id="content-card">{props.content}</p>
 
-      {props.type_img2 == "svg" ? (
+      {props.type_img2 === "svg" ? (
         <figure>
-          <embed type="image/svg+xml" src={props.img2} />{" "}
+          <embed
+            type="image/svg+xml"
+            className="img-border img-thumbnail"
+            src={props.img2}
+          />{" "}
         </figure>
-      ) : props.type_img2 == "png" ? (
+      ) : props.type_img2 === "png" ? (
         <figure>
-          <img className="img-thumbnail" src={props.img2} />
+          <img className="img-thumbnail img-border" src={props.img2} alt=" " />
         </figure>
       ) : (
         false
       )}
-      {props.img_description2 != "" ? (
-        <figcaption className="figure-caption">
+      {props.img_description2 !== "" ? (
+        <figcaption className="figure-caption ">
           <span>{props.img_description2}</span>
         </figcaption>
       ) : (
