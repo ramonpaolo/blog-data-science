@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/blog-data-science/static/css/main.0798204d.chunk.css",
-    "main.js": "/blog-data-science/static/js/main.8f5eb7eb.chunk.js",
-    "main.js.map": "/blog-data-science/static/js/main.8f5eb7eb.chunk.js.map",
+    "main.css": "/blog-data-science/static/css/main.d3b36de7.chunk.css",
+    "main.js": "/blog-data-science/static/js/main.0a012d42.chunk.js",
+    "main.js.map": "/blog-data-science/static/js/main.0a012d42.chunk.js.map",
     "runtime-main.js": "/blog-data-science/static/js/runtime-main.ea969b38.js",
     "runtime-main.js.map": "/blog-data-science/static/js/runtime-main.ea969b38.js.map",
     "static/js/2.b07b3ab3.chunk.js": "/blog-data-science/static/js/2.b07b3ab3.chunk.js",
     "static/js/2.b07b3ab3.chunk.js.map": "/blog-data-science/static/js/2.b07b3ab3.chunk.js.map",
     "index.html": "/blog-data-science/index.html",
-    "precache-manifest.8454b690d8d94df54460da7f2e44ecd1.js": "/blog-data-science/precache-manifest.8454b690d8d94df54460da7f2e44ecd1.js",
+    "precache-manifest.f13de402d789c7cb6d4812970d823cab.js": "/blog-data-science/precache-manifest.f13de402d789c7cb6d4812970d823cab.js",
     "service-worker.js": "/blog-data-science/service-worker.js",
-    "static/css/main.0798204d.chunk.css.map": "/blog-data-science/static/css/main.0798204d.chunk.css.map",
+    "static/css/main.d3b36de7.chunk.css.map": "/blog-data-science/static/css/main.d3b36de7.chunk.css.map",
     "static/js/2.b07b3ab3.chunk.js.LICENSE.txt": "/blog-data-science/static/js/2.b07b3ab3.chunk.js.LICENSE.txt",
     "static/media/arrow.svg": "/blog-data-science/static/media/arrow.84e5e9b6.svg",
     "static/media/data_Science.jpg": "/blog-data-science/static/media/data_Science.12483f96.jpg",
@@ -20,7 +20,7 @@
   "entrypoints": [
     "static/js/runtime-main.ea969b38.js",
     "static/js/2.b07b3ab3.chunk.js",
-    "static/css/main.0798204d.chunk.css",
-    "static/js/main.8f5eb7eb.chunk.js"
+    "static/css/main.d3b36de7.chunk.css",
+    "static/js/main.0a012d42.chunk.js"
   ]
 }
