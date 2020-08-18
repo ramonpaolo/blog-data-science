@@ -7,8 +7,8 @@ import Navbar from "./views/style/navbar/Navbar";
 import Content from "./views/content/Content";
 import Footer from "./views/style/footer/Footer";
 import Home from "./views/home/Home";
-import Data from "./views/dados/Dados";
-import Help from "./views/ajuda/Ajuda";
+import Data from "./views/datas/Dados";
+import Help from "./views/help/Help";
 
 function App() {
   return (
@@ -27,7 +27,7 @@ function App() {
           <Route path="/help" component={Help} />
         </Switch>
       </Router>
-      <Footer autor="Ramon Paolo Maran"/>
+      <Footer autor="Ramon Paolo Maran" />
     </div>
   );
 }
