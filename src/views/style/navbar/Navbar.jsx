@@ -2,6 +2,7 @@ import React from "react";
 import "../../css/bootstrap.min.css";
 import "./Navbar.css";
 import { Link } from "react-router-dom";
+import Toggle from "../../../assets/images/toggle.png"
 
 class NavBar extends React.Component {
   state = {
@@ -46,10 +47,14 @@ class NavBar extends React.Component {
             className="hidden-button"
             style={{ color: "white" }}
           >
+             
             <img
               height="35px"
-              src="https://lh3.googleusercontent.com/proxy/W2NsLaIz64QdXHNqgw3SzFotnGVMo-fXcvSsKlglscfhu3jRIKKIj1h4j-aAUP-thFDznDGbhkD4qoQRFhOwkYrj-Jbl"
-              alt=" "
+              src={Toggle}
+              style={{
+                fill: "white"
+              }}
+              alt="Toggle"
             />
           </button>
         </nav>
@@ -61,7 +66,8 @@ class NavBar extends React.Component {
 export default NavBar;
 
 {
-  /*{this.state.mostrar === 1 ? <ul className="navbar-expand navbar-nav text-center">
+  /*{https://cdn0.iconfinder.com/data/icons/user-interface-150/24/List_menu_toggle-512.png
+    this.state.mostrar === 1 ? <ul className="navbar-expand navbar-nav text-center">
                <Link to="/">
                 <li className="nav-item">
                   <a className="nav-link active">{this.props.link1}</a>
