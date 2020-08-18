@@ -28,7 +28,7 @@ function Footer(props) {
             src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/800px-React-icon.svg.png"
           ></img>
         </p>
-        <hr color="white" />
+        <hr />
         <div className="text-left max-width">
           <p>
             Acesse o perfil de <strong>{props.autor}</strong> no

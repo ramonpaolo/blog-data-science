@@ -10,9 +10,10 @@
   font-size: 14px;
 }
 
-hr {
-  width: 80vw;
+.footer hr {
+  width: 70vw;
   height: 1px;
+  background-color: white;
   border-radius: 10px;
 }
 @media only screen and (max-width: 1920px) {
@@ -22,7 +23,7 @@ hr {
   }
   .max-width {
     padding-left: 0vw;
-    width: 80vw;
+    width: 70vw;
   }
   .voltar-topo {
     border: 2px solid white;

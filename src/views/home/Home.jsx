@@ -11,7 +11,7 @@ class MyHomePage extends React.Component {
     return (
       <div className="home">
         <h1>Bem Vindo</h1>
-        <hr color="red" />
+        <hr />
         <div>
           <img
             className="img-fluid"
@@ -44,7 +44,7 @@ class MyHomePage extends React.Component {
           </div>
         </div>
         <div>
-          <hr color="red" />
+          <hr />
           <div>
             <div>
               <h3>Porque Python?</h3>
@@ -82,7 +82,7 @@ class MyHomePage extends React.Component {
               </div>
             </div>
           </div>
-          <hr color="red" />
+          <hr />
           <div>
             <div>
               <h2>O que aprenderemos?</h2>
