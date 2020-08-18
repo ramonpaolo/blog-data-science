@@ -1,5 +1,5 @@
 import React from "react";
-import "./Dados.css";
+import "./Data.css";
 
 export default (props) => {
   return (
