@@ -27,7 +27,7 @@ class NavBar extends React.Component {
         <nav className="navbar-expand background ">
           <div className={this.state.class}>
             <ul className="navbar-expand navbar-nav justify-between">
-              <Link to="/">
+              <Link to="/blog-data-science">
                 <li>{this.props.link1}</li>
               </Link>
               <Link to="/content">

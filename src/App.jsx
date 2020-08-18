@@ -21,7 +21,7 @@ function App() {
         <br />
 
         <Switch>
-          <Route path="/" exact component={Home} />
+          <Route path="/blog-data-science" exact component={Home} />
           <Route path="/content" component={Content} />
           <Route path="/data" component={Data} />
           <Route path="/help" component={Help} />
