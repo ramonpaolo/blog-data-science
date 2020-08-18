@@ -11,7 +11,7 @@ class MyHomePage extends React.Component {
     return (
       <div className="home">
         <h1>Bem Vindo</h1>
-        <hr />
+        <hr/>
         <div>
           <img
             className="img-fluid"
