@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "fe7be0700763244c30e0556094780971",
+    "revision": "240701db8dc4432f2483b561cd742c52",
     "url": "/blog-data-science/index.html"
   },
   {
-    "revision": "c056b3ae380bc469feac",
-    "url": "/blog-data-science/static/css/main.d3b36de7.chunk.css"
+    "revision": "65bd4d19f97749475315",
+    "url": "/blog-data-science/static/css/main.c5eba826.chunk.css"
   },
   {
-    "revision": "5f5d8201103da266637b",
-    "url": "/blog-data-science/static/js/2.b07b3ab3.chunk.js"
+    "revision": "fecbd340047494a416ca",
+    "url": "/blog-data-science/static/js/2.40a9284c.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/blog-data-science/static/js/2.b07b3ab3.chunk.js.LICENSE.txt"
+    "url": "/blog-data-science/static/js/2.40a9284c.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "c056b3ae380bc469feac",
-    "url": "/blog-data-science/static/js/main.0a012d42.chunk.js"
+    "revision": "65bd4d19f97749475315",
+    "url": "/blog-data-science/static/js/main.dbf85f3e.chunk.js"
   },
   {
     "revision": "721933a7f29deae96c02",

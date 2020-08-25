@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/blog-data-science/static/css/main.d3b36de7.chunk.css",
-    "main.js": "/blog-data-science/static/js/main.0a012d42.chunk.js",
-    "main.js.map": "/blog-data-science/static/js/main.0a012d42.chunk.js.map",
+    "main.css": "/blog-data-science/static/css/main.c5eba826.chunk.css",
+    "main.js": "/blog-data-science/static/js/main.dbf85f3e.chunk.js",
+    "main.js.map": "/blog-data-science/static/js/main.dbf85f3e.chunk.js.map",
     "runtime-main.js": "/blog-data-science/static/js/runtime-main.ea969b38.js",
     "runtime-main.js.map": "/blog-data-science/static/js/runtime-main.ea969b38.js.map",
-    "static/js/2.b07b3ab3.chunk.js": "/blog-data-science/static/js/2.b07b3ab3.chunk.js",
-    "static/js/2.b07b3ab3.chunk.js.map": "/blog-data-science/static/js/2.b07b3ab3.chunk.js.map",
+    "static/js/2.40a9284c.chunk.js": "/blog-data-science/static/js/2.40a9284c.chunk.js",
+    "static/js/2.40a9284c.chunk.js.map": "/blog-data-science/static/js/2.40a9284c.chunk.js.map",
     "index.html": "/blog-data-science/index.html",
-    "precache-manifest.f13de402d789c7cb6d4812970d823cab.js": "/blog-data-science/precache-manifest.f13de402d789c7cb6d4812970d823cab.js",
+    "precache-manifest.5e73ae46e2a96380a6e382efaa898902.js": "/blog-data-science/precache-manifest.5e73ae46e2a96380a6e382efaa898902.js",
     "service-worker.js": "/blog-data-science/service-worker.js",
-    "static/css/main.d3b36de7.chunk.css.map": "/blog-data-science/static/css/main.d3b36de7.chunk.css.map",
-    "static/js/2.b07b3ab3.chunk.js.LICENSE.txt": "/blog-data-science/static/js/2.b07b3ab3.chunk.js.LICENSE.txt",
+    "static/css/main.c5eba826.chunk.css.map": "/blog-data-science/static/css/main.c5eba826.chunk.css.map",
+    "static/js/2.40a9284c.chunk.js.LICENSE.txt": "/blog-data-science/static/js/2.40a9284c.chunk.js.LICENSE.txt",
     "static/media/arrow.svg": "/blog-data-science/static/media/arrow.84e5e9b6.svg",
     "static/media/data_Science.jpg": "/blog-data-science/static/media/data_Science.12483f96.jpg",
     "static/media/r.png": "/blog-data-science/static/media/r.0b259cd7.png",
@@ -19,8 +19,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.ea969b38.js",
-    "static/js/2.b07b3ab3.chunk.js",
-    "static/css/main.d3b36de7.chunk.css",
-    "static/js/main.0a012d42.chunk.js"
+    "static/js/2.40a9284c.chunk.js",
+    "static/css/main.c5eba826.chunk.css",
+    "static/js/main.dbf85f3e.chunk.js"
   ]
 }
