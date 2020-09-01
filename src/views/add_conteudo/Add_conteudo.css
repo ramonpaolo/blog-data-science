@@ -1,0 +1,73 @@
+.add-conteudo input[type="text"] {
+  border-color: red;
+  border-radius: 15px;
+  box-sizing: border-box;
+  padding-left: 10px;
+  margin-left: 10px;
+}
+.add-conteudo input[type="file"] {
+  background-color: red;
+  border-radius: 10px;
+  border-color: red;
+  color: white;
+}
+.add-conteudo textarea {
+  border-color: red;
+  margin-top: 20px;
+}
+.add-conteudo label {
+  margin-top: 30px;
+}
+.add-conteudo h2:first-of-type {
+  text-align: center;
+}
+.add-conteudo span {
+  font-size: 14px;
+}
+.add-conteudo {
+  text-align: start;
+}
+@media only screen and (max-width: 1920px) {
+  .add-conteudo {
+    border: 1px solid red;
+    border-radius: 50px;
+    padding: 10px;
+    margin: 0vw 30vw;
+  }
+  .add-conteudo button {
+    margin-left: 15vw;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  .add-conteudo {
+    border: 1px solid red;
+    border-radius: 50px;
+    margin: 0vw 20vw;
+    padding: 10px;
+  }
+  .add-conteudo button {
+    margin-left: 25vw;
+  }
+}
+@media only screen and (max-width: 980px) {
+  .add-conteudo {
+    border: 1px solid red;
+    border-radius: 50px;
+    padding: 10px;
+    margin: 0vw 15vw;
+  }
+  .add-conteudo button {
+    margin-left: 27vw;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .add-conteudo {
+    border: 1px solid red;
+    border-radius: 50px;
+    padding: 15px;
+    margin: 0vw 3vw;
+  }
+  .add-conteudo button {
+    margin-left: 35vw;
+  }
+}
