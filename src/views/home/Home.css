@@ -1,0 +1,28 @@
+.link {
+  color: black;
+}
+.link:hover {
+  color: black;
+  font-size: 18px;
+}
+.home{
+  justify-content: center;
+  text-align: center;
+  margin: 8vw;
+  margin-top: 0vw;
+}
+.home p a{
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.home hr{
+  background-color: red;
+}
+
+
+@media only screen and (max-width: 550px) {
+  .home {
+    padding-top: 6vw;
+  }
+}

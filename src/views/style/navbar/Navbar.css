@@ -1,0 +1,114 @@
+.background {
+  animation: navbar;
+  animation-duration: 3s;
+  animation-fill-mode: forwards;
+  font-size: 2vw;
+  padding: 10px;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+}
+
+.background button {
+  animation: navbar;
+  animation-duration: 3s;
+  animation-fill-mode: forwards;
+  border: red;
+  font-size: 18px;
+  outline: red;
+}
+
+.background li {
+  color: white;
+  padding-right: 0px;
+}
+
+.background li:active {
+  font-weight: bold;
+}
+
+.background li:hover {
+  color: white;
+}
+
+.show ul li {
+  animation: show 1s forwards;
+}
+
+@media only screen and (max-width: 1920px) {
+  .background li:first-of-type {
+    margin-left: 10vw;
+  }
+  .background li {
+    font-size: 1.5vw;
+    margin-right: 25px;
+  }
+  embed {
+    width: max-content;
+  }
+  .hidden-button {
+    display: none;
+  }
+}
+@media only screen and (max-width: 1280px) {
+  .background li {
+    font-size: 3vw;
+  }
+  embed {
+    width: max-content;
+  }
+  .hidden-button {
+    display: none;
+  }
+}
+@media only screen and (max-width: 980px) {
+  .background li:first-of-type {
+    margin-left: 10vw;
+  }
+  .background li {
+    font-size: 3vw;
+    margin-right: 25px;
+  }
+  embed {
+    width: max-content;
+  }
+  .hidden-button {
+    display: none;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .background li:first-of-type {
+    margin-left: 2vw;
+  }
+  .background li {
+    font-size: 5vw;
+    margin-right: 0px;
+  }
+  .hidden {
+    display: none;
+  }
+  .justify-between {
+    justify-content: space-between;
+  }
+  .hidden-button {
+    display: block;
+  }
+}
+
+@keyframes navbar {
+  0% {
+    background-color: white;
+  }
+  100% {
+    background-color: red;
+  }
+}
+
+@keyframes show {
+  0% {
+    color: red;
+  }
+  100% {
+    color: white;
+  }
+}

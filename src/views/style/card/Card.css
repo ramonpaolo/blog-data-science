@@ -1,0 +1,47 @@
+.card {
+  border: 1px rgba(255, 0, 0, 0.4) solid;
+  border-radius: 60px;
+  box-sizing: border-box;
+  margin: 20px 40px;
+  padding: 30px;
+}
+.card h5 {
+  margin: 20px 0px;
+}
+.card h6 {
+  font-style: italic;
+}
+.card a {
+  color: black;
+}
+.card a:hover {
+  color: black;
+  font-size: 20px;
+}
+#content-card {
+  margin: 0px 20px 10px;
+}
+.card>hr {
+  width: 60%;
+}
+
+.card .img-border {
+  border-radius: 20px;
+  margin: 10px;
+}
+@media only screen and (max-width: 1920px) {
+  .card {
+    margin: 4vw 18vw;
+    padding: 20px 120px;
+  }
+  .card .img-border{
+    width: 700px;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .card {
+    margin: 4vw 8vw;
+    padding: 20px 50px;
+  }
+}
