@@ -20,7 +20,7 @@ function App() {
           link2="Conteudo"
           link3="Dados"
           link4="Ajuda"
-          link5="Add Content"
+          link5="Add Conteudo"
         />
 
         <br />

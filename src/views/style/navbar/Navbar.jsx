@@ -34,7 +34,7 @@ class NavBar extends React.Component {
               <Link to="/content">
                 <li>{this.props.link2}</li>
               </Link>
-              <Link to="/add_conteudo">
+              <Link to="/add_content">
                 <li>{this.props.link5}</li>
               </Link>
               <Link to="/data">
