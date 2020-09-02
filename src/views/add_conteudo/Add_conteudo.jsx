@@ -6,7 +6,7 @@ export default function App() {
   const [project, setProject] = useState("");
   return (
     <div className="add-conteudo">
-      <h2>Área restrita para quem quiser ajudar :)</h2>
+      <h2>Para quem quiser ajudar :)</h2>
       <span>
         Essa é a área para caso você deseje adicionar algum conteúdo para poder
         ensinar e compartilhar sua experiência
