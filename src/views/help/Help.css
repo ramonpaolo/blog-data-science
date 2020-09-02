@@ -1,12 +1,12 @@
 .perguntas-respostas ul {
+  justify-content: center;
   list-style: none;
   margin: 20px;
-  justify-content: center;
 }
 .perguntas-respostas ul li {
+  justify-content: center;
   list-style: none;
   margin: 20px;
-  justify-content: center;
   margin-left: -20px;
 }
 .perguntas-respostas a {
@@ -14,6 +14,6 @@
   font-weight: bold;
 }
 .perguntas-respostas a:hover {
-  font-size: 18px;
   color: black;
+  font-size: 18px;
 }

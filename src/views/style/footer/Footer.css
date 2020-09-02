@@ -11,10 +11,10 @@
 }
 
 .footer hr {
-  width: 70vw;
-  height: 1px;
   background-color: white;
   border-radius: 10px;
+  height: 1px;
+  width: 70vw;
 }
 @media only screen and (max-width: 1920px) {
   .footer {
@@ -26,9 +26,9 @@
     width: 70vw;
   }
   .voltar-topo {
+    background-color: white;
     border: 2px solid white;
     border-radius: 100px;
-    background-color: white;
     box-shadow: black;
     float: right;
     height: 10vh;
@@ -48,9 +48,9 @@
     width: 85vw;
   }
   .voltar-topo {
+    background-color: white;
     border: 2px solid white;
     border-radius: 100px;
-    background-color: white;
     box-shadow: black;
     float: right;
     height: 10vh;
@@ -76,9 +76,9 @@
     width: 80vw;
   }
   .voltar-topo {
+    background-color: white;
     border: 1px solid white;
     border-radius: 100px;
-    background-color: white;
     box-shadow: black;
     float: right;
     height: 8vh;
@@ -97,9 +97,9 @@
     width: 85vw;
   }
   .voltar-topo {
+    background-color: white;
     border: 2px solid white;
     border-radius: 100px;
-    background-color: white;
     box-shadow: black;
     float: right;
     height: 8vh;
@@ -120,9 +120,9 @@
     width: 85vw;
   }
   .voltar-topo {
+    background-color: white;
     border: 2px solid white;
     border-radius: 100px;
-    background-color: white;
     box-shadow: black;
     float: right;
     height: 8vh;

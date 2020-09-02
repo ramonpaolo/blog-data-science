@@ -2,8 +2,8 @@
   border-color: red;
   border-radius: 15px;
   box-sizing: border-box;
-  padding-left: 10px;
   margin-left: 10px;
+  padding-left: 10px;
 }
 .add-conteudo input[type="file"] {
   background-color: red;
@@ -31,8 +31,8 @@
   .add-conteudo {
     border: 1px solid red;
     border-radius: 50px;
-    padding: 10px;
     margin: 0vw 30vw;
+    padding: 10px;
   }
   .add-conteudo button {
     margin-left: 15vw;
@@ -42,8 +42,8 @@
   .add-conteudo {
     border: 1px solid red;
     border-radius: 50px;
-    margin: 0vw 20vw;
     padding: 10px;
+    margin: 0vw 20vw;
   }
   .add-conteudo button {
     margin-left: 25vw;
@@ -53,8 +53,8 @@
   .add-conteudo {
     border: 1px solid red;
     border-radius: 50px;
-    padding: 10px;
     margin: 0vw 15vw;
+    padding: 10px;
   }
   .add-conteudo button {
     margin-left: 27vw;
@@ -64,8 +64,8 @@
   .add-conteudo {
     border: 1px solid red;
     border-radius: 50px;
-    padding: 15px;
     margin: 0vw 3vw;
+    padding: 15px;
   }
   .add-conteudo button {
     margin-left: 35vw;
