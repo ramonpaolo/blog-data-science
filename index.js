@@ -5,13 +5,7 @@ const sql = require("mysql");
 const data = require("./src/data/projects");
 const fs = require("fs");
 
-/*const connect = sql.createConnection({
-  host: "mysql669.umbler.com",
-  user: "ramon_paolo",
-  password: "familiAMaram12.",
-  database: "data-science",
-  port: 41890,
-});
+/*
 
 connect.connect();
 
