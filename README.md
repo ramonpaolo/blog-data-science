@@ -1,16 +1,22 @@
 # Blog of Data Science about Python and R lenguages
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Python.svg/1200px-Python.svg.png" height="100px" alt="Python"/>
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/R_logo.svg/724px-R_logo.svg.png" height="100px" alt="R">
+<img src="./src/assets/images/readme/Python.png" alt="Opa" width="110"/>
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/R_logo.svg/724px-R_logo.svg.png" height="90px" alt="R">
 
 <br/>
 <br/>
 <br/>
 <br/>
+<img src="./src/assets/images/readme/home.png" width="60%">
+<img src="./src/assets/images/readme/content.png" width="60%">
+<br/>
+<br/>
+<br/>
 
-<img src="https://ik.imagekit.io/9t3dbkxrtl/home_oU0-75jgi.png">
-
+# PrintScreen PWA
+<img src="./src/assets/images/readme/PWA.png" width="60%">
 
 ## Describe:
 
@@ -21,7 +27,7 @@ The website uses real data released by government, non-profit institutions and t
 
 ## Positives of use ReactJs:
 
-- Single App Aplication
+- Single Page Aplication
 - JavaScript and TypeScript lenguages
 - Very utilized currently
 - Reuse of codes
@@ -39,9 +45,10 @@ The website uses real data released by government, non-profit institutions and t
 
 ## Back-end:
 
-- NoSQL (Mongo DB)
+- MySQL
 - Node.Js
 - Express
+- Socket io
 
 ## IDE:
 
@@ -67,7 +74,7 @@ The website uses real data released by government, non-profit institutions and t
 <br>
 <br>
 
-***
+---
 
 # Português - BR
 
@@ -111,7 +118,6 @@ O site utiliza dados reais divulgados pelo governo, instituições sem fins lucr
 
 - GNU/Linux Ubuntu 20.04 LTS
 - Raspberry Pi 4 - Raspbian 32-Bits
-
 
 ## Clonando esse repositório:
 
