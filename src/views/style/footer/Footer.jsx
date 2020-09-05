@@ -2,6 +2,7 @@ import React from "react";
 import "../../css/bootstrap.min.css";
 import "./Footer.css";
 import Arrow from "../../../assets/images/arrow.svg";
+import app from "../../../assets/apk/data-science.apk"
 
 function voltar_topo() {
   window.scroll(0, 0);
@@ -28,6 +29,7 @@ function Footer(props) {
             src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/800px-React-icon.svg.png"
           ></img>
         </p>
+        <p>Baixe o nosso aplicativo <a href={app}>Aqui</a></p>
         <hr />
         <div className="text-left max-width">
           <p>
