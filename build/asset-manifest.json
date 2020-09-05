@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "./static/css/main.b29b99be.chunk.css",
-    "main.js": "./static/js/main.d5614f20.chunk.js",
-    "main.js.map": "./static/js/main.d5614f20.chunk.js.map",
+    "main.js": "./static/js/main.b1f8588d.chunk.js",
+    "main.js.map": "./static/js/main.b1f8588d.chunk.js.map",
     "runtime-main.js": "./static/js/runtime-main.796b5bb3.js",
     "runtime-main.js.map": "./static/js/runtime-main.796b5bb3.js.map",
     "static/js/2.cd6239fd.chunk.js": "./static/js/2.cd6239fd.chunk.js",
     "static/js/2.cd6239fd.chunk.js.map": "./static/js/2.cd6239fd.chunk.js.map",
     "index.html": "./index.html",
-    "precache-manifest.c24a943fbbbf40c4d609f88dc848b3a6.js": "./precache-manifest.c24a943fbbbf40c4d609f88dc848b3a6.js",
+    "precache-manifest.c2469ed6863d2d955292b385e58ade6b.js": "./precache-manifest.c2469ed6863d2d955292b385e58ade6b.js",
     "service-worker.js": "./service-worker.js",
     "static/css/main.b29b99be.chunk.css.map": "./static/css/main.b29b99be.chunk.css.map",
     "static/js/2.cd6239fd.chunk.js.LICENSE.txt": "./static/js/2.cd6239fd.chunk.js.LICENSE.txt",
     "static/media/arrow.svg": "./static/media/arrow.84e5e9b6.svg",
-    "static/media/data-science.apk": "./static/media/data-science.cc871e1a.apk",
+    "static/media/data-science.apk": "./static/media/data-science.37064d7e.apk",
     "static/media/data_Science.jpg": "./static/media/data_Science.12483f96.jpg",
     "static/media/r.png": "./static/media/r.0b259cd7.png",
     "static/media/toggle.png": "./static/media/toggle.54436f72.png"
@@ -22,6 +22,6 @@
     "static/js/runtime-main.796b5bb3.js",
     "static/js/2.cd6239fd.chunk.js",
     "static/css/main.b29b99be.chunk.css",
-    "static/js/main.d5614f20.chunk.js"
+    "static/js/main.b1f8588d.chunk.js"
   ]
 }
