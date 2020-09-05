@@ -1,14 +1,5 @@
 # Blog of Data Science about Python and R lenguages
 
-
-<img src="./src/assets/images/readme/Python.png" alt="Opa" width="110"/>
-
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/R_logo.svg/724px-R_logo.svg.png" height="90px" alt="R">
-
-<br/>
-<br/>
-<br/>
-<br/>
 <img src="./src/assets/images/readme/home.png" width="100%">
 <img src="./src/assets/images/readme/content.png" width="100%">
 <br/>
