@@ -78,7 +78,7 @@ O site utiliza dados reais divulgados pelo governo, instituições sem fins lucr
 
 ## Pontos positivos do uso do ReactJs:
 
-- Single App Aplication
+- Single Page Aplication
 - JavaScript e TypeScript linguagens suportadas
 - Muito utilizado Atualmente
 - Reutilização de Códigos
@@ -96,9 +96,10 @@ O site utiliza dados reais divulgados pelo governo, instituições sem fins lucr
 
 ## Back-end:
 
-- NoSQL (Mongo DB)
+- MySQL
 - Node.Js
 - Express
+- Socket io
 
 ## IDE:
 
