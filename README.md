@@ -9,8 +9,8 @@
 <br/>
 <br/>
 <br/>
-<img src="./src/assets/images/readme/home.png" width="60%">
-<img src="./src/assets/images/readme/content.png" width="60%">
+<img src="./src/assets/images/readme/home.png" width="47%">
+<img src="./src/assets/images/readme/content.png" width="50%">
 <br/>
 <br/>
 <br/>
