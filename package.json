@@ -23,7 +23,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "back": "node index",
-    "start": "npm run build && npm run back"
+    "start": "npm run back"
   },
   "eslintConfig": {
     "extends": "react-app"
