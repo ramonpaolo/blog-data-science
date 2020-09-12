@@ -1,9 +1,20 @@
 import React, { useState } from "react";
+import axios from "axios";
+import dados from "../../data/projects";
 
 import "./Add_conteudo.css";
+function chamar() {
+
+  axios.get("http://localhost:5000/api").then(valor => {
+    console.log(valor)
+  })
+
+}
 
 export default function App() {
   const [project, setProject] = useState("");
+
+
   return (
     <div className="add-conteudo">
       <h2>Para quem quiser ajudar :)</h2>
@@ -15,7 +26,7 @@ export default function App() {
         <form>
           <div>
             <label>Digite seu nome: </label>
-            <input type="text" placeholder="Ronaldinho Gaúcho" required />
+            <input type="text" name="nome" placeholder="Ronaldinho Gaúcho" required />
           </div>
           <div>
             <label>Digite seu email:</label>
@@ -73,7 +84,7 @@ export default function App() {
               <textarea required />
             </div>
           </div>
-          <button className="btn btn-danger">Enviar</button>
+          <button className="btn btn-danger" onClick={chamar}>Enviar</button>
         </form>
       </div>
     </div>

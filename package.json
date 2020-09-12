@@ -8,6 +8,7 @@
     "@testing-library/react": "^9.5.0",
     "@testing-library/user-event": "^7.2.1",
     "axios": "^0.20.0",
+    "body-parser": "^1.19.0",
     "express": "^4.17.1",
     "gh-pages": "^3.1.0",
     "mysql": "^2.18.1",
@@ -17,13 +18,12 @@
     "react-scripts": "3.4.1"
   },
   "scripts": {
-    "star": "react-scripts start",
+    "front": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
-    "start": "node index"
+    "back": "node index",
+    "start": "npm run build && npm run back"
   },
   "eslintConfig": {
     "extends": "react-app"
