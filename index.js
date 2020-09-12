@@ -1,14 +1,14 @@
 const express = require("express");
 const app = express();
 const path = require("path");
-const sql = require("mysql");
+//const sql = require("mysql");
 const bodyParser = require("body-parser")
 const data = require("./src/data/projects");
 const fs = require("fs");
 const { default: Axios } = require("axios");
 
 
-const connect = sql.createConnection({
+/*const connect = sql.createConnection({
   
 });
 
@@ -28,7 +28,7 @@ const conecao = connect.query(
     // console.log(fields);
     connect.end();
   }
-);
+);*/
 
 app.use(express.static(path.join(__dirname, "build")));
 
